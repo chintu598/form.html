@@ -1,0 +1,43 @@
+<DOCTYPE! html>             <!--This is html5 document-->
+ <html>
+  <head>
+  	<title>form</title>     <!--This title of webpage-->
+  </head>
+  <body>                    <!--This is body-->
+  	<form>                  <!--form element to create form on webpage-->
+  	   <fieldset>
+  		   <legend>Your Details</legend>   <!--Caption of form-->
+           <label for="name">Name:</label>
+  		   <input type="text" name="name" id="name" size="30" placeholder="enter your name"><br><br>
+  		   <label for="email">Email:</label>  <!--This is label-->
+  		   <input type="email" name="email" size="30" id="email" placeholder="enter your mail id">
+       </fieldset>
+    </form><br>              <!--end of form tag-->
+    <form>
+       <fieldset>
+       	   <legend>Your Review</legend>
+           How did you hear about us?
+           <select>           <!--Used to display dropdown list-->
+		   <option value="">select</option>
+           <option>Google</option>
+	       <option>Facebook</option>    <!--options in dropdown list-->
+		   <option>Twitter</option>
+		   <option>Newspaper</option>
+		   <option>other</option>
+           </select><br><br>
+		     Would you visit again?<br>
+		   <input type="radio" name="text"> <!--Used to display radio button-->
+		   <label>yes</label>
+		     <input type="radio" name="text">
+		   <label>no</label>
+		     <input type="radio" name="text">
+		   <label>may be</label><br><br>
+		   Comments:<br>
+		   <textarea rows="12" cols="60">tell something about us...</textarea><br><br> <!--Use to display text,comments in a form-->
+		   <input type="checkbox" name="ckeckbox" checked>
+		   Sign me up for email updates<br>
+		   <input type="submit" name="submit" value="Submit Review">  <!--Displays Submit button-->
+       </fieldset>
+    </form>                    <!--end of a form-->
+  </body>        
+ </html>                       <!--end of html-->
